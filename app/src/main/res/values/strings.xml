@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">PDBI</string>
+    <string name="nav_profile">Profile</string>
+    <string name="nav_collection">Collection</string>
+    <string name="nav_add">Add</string>
+    <string name="nav_home">Home</string>
+    <string name="home_fragment">Home Fragment</string>
+    <string name="add_fragment">Add fragment</string>
+    <string name="collection_fragment">Collection Fragment</string>
+    <string name="profile_fragment">Profile Fragment</string>
+</resources>
