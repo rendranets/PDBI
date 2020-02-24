@@ -7,7 +7,6 @@ import android.os.Bundle;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
-import android.widget.TextView;
 
 public class splash extends AppCompatActivity {
 
@@ -18,11 +17,11 @@ public class splash extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
 
-        iv_splash = (ImageView) findViewById(R.id.iv_splash);
+        iv_splash = findViewById(R.id.iv_splash);
         Animation myanim = AnimationUtils.loadAnimation(this,R.anim.transition);
 
         iv_splash.startAnimation(myanim);
-        final Intent i = new Intent(this,MainActivity.class);
+        final Intent i = new Intent(this,OpeningActivity.class);
         Thread timer = new Thread(){
             public void run () {
                 try {

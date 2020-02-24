@@ -8,4 +8,12 @@
     <string name="add_fragment">Add fragment</string>
     <string name="collection_fragment">Collection Fragment</string>
     <string name="profile_fragment">Profile Fragment</string>
+    <string name="lokasi_budaya">Lokasi Budaya</string>
+    <string name="cari_data_budaya">Cari data budaya</string>
+    <string name="search">search</string>
+    <string name="location">location</string>
+    <string name="atau">atau</string>
+    <string name="telusuri">Telusuri</string>
+    <string name="cari_lokasi_budaya">Cari lokasi budaya</string>
+    <string name="saat_ini_di_gunakan">Saat ini di gunakan</string>
 </resources>
